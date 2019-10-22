@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="appInfo" />
+    <version value="1" />
+    <list>
+        <mapping class="com.yhwxd.suguoqing.securitysetting2.bean.AppInfo" />
+    </list>
+
+</litepal>

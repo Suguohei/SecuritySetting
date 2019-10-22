@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="设备所有者权限">
+
+        <EditTextPreference
+            android:id="@+id/reset_screet"
+            android:key="reset_screet"
+            android:title="修改开机密码"
+            android:inputType="number"
+            />
+
+        <EditTextPreference
+            android:id="@+id/lockInfo"
+            android:key="lockInfo"
+            android:title="锁屏时提示信息"
+            />
+
+        <SwitchPreference
+            android:title="设置静音"
+            android:defaultValue="false"
+            android:key="silence"/>
+
+        <SwitchPreference
+            android:title="设置不准截屏"
+            android:key="capScreen"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:title="禁止状态栏下拉"
+            android:key="statusbar"
+            android:defaultValue="true"
+            />
+
+        <Preference
+            android:key="reboot"
+            android:title="重启"
+            />
+        <Preference
+            android:key="userIcon"
+            android:title="设置用户头像"/>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

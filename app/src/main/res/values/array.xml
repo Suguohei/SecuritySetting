@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_name">
+        <item>管理员权限</item>
+        <item>所有者权限</item>
+        <item>应用列表</item>
+        <item>一键模式</item>
+        <item>备份与重置</item>
+        <item>使用者信息</item>
+
+    </string-array>
+
+</resources>

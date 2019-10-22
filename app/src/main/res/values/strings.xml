@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SecuritySetting2</string>
+    <string name="sample_device_admin">超级管理员</string>
+    <string name="tactics">策略</string>
+    <string name="sample_device_admin_description">这里是一些描述，向用户说明一些东西</string>
+    <string name="camera_enable">相机可用</string>
+    <string name="camera_disable">相机不可用</string>
+    <string name="forbid_camera">禁止使用相机</string>
+    <string name="get_admin">已获取管理员</string>
+    <string name="not_get_admin">先获取管理员才可以操作</string>
+    <string name="lock_screen">锁屏</string>
+    <string name="blue_tee">蓝牙开关</string>
+    <string name="blue_tee_open">蓝牙已经打开</string>
+    <string name="blue_tee_close">蓝牙已经关闭</string>
+    <string name="wifi">wifi开关</string>
+    <string name="wifi_open">wifi已经打开</string>
+    <string name="wifi_close">wifi已经关闭</string>
+    <string name="remove_admin">移除超级管理员</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="ensure_cancel_admin">你确定要移除超级管理员嘛，这会造成有些功能不能使用</string>
+    <string name="reset">恢复出厂设置</string>
+    <string name="tips">删除数据后，系统将会重新启动.确定吗？</string>
+    <string name="data">数据流量开关</string>
+    <string name="data_open">数据流量已经打开</string>
+    <string name="data_close">数据流量已经关闭</string>
+</resources>

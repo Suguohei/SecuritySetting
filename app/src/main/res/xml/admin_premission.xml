@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="管理员权限"
+        >
+        <Preference
+            android:key="get_admin"
+            android:summary="@string/not_get_admin"
+            android:title="@string/sample_device_admin"/>
+
+        <Preference
+            android:id="@+id/lockScreen"
+            android:title="@string/lock_screen"
+            android:key="lockSceen"/>
+
+        <SwitchPreference
+            android:id="@+id/forbid_camera"
+            android:key="forbid_camera"
+            android:summary="@string/camera_enable"
+            android:title="@string/forbid_camera"/>
+
+        <SwitchPreference
+            android:id="@+id/blue_tee"
+            android:key="blue_tee"
+            android:summary="@string/blue_tee_close"
+            android:title="@string/blue_tee"/>
+
+        <SwitchPreference
+            android:id="@+id/wifi"
+            android:key="wifi"
+            android:summary="@string/wifi_open"
+            android:defaultValue="true"
+            android:title="@string/wifi"/>
+
+        <SwitchPreference
+            android:id="@+id/data"
+            android:key="data"
+            android:summary="@string/data_open"
+            android:defaultValue="true"
+            android:title="@string/data"/>
+
+        <Preference
+            android:key="remove_admin"
+            android:title="@string/remove_admin"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

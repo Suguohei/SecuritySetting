@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <EditText
+        android:id="@+id/origin_screet"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="请输入旧的密码"
+        android:inputType="number"
+        app:layout_constraintRight_toLeftOf="@+id/tips"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/tips"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@+id/origin_screet"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/origin_screet"
+        />
+
+    <EditText
+        android:id="@+id/new_screet"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/origin_screet"
+        android:hint="请输入新的密码"
+        android:inputType="number"
+        app:layout_constraintRight_toLeftOf="@+id/tips2"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/tips2"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@+id/new_screet"
+        app:layout_constraintTop_toBottomOf="@id/tips"
+        app:layout_constraintBottom_toBottomOf="@+id/new_screet"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+</android.support.constraint.ConstraintLayout>
