@@ -1,6 +1,7 @@
 # SecuritySetting
 控制设备，软件可否卸载，应用加锁，相机，各类开关，锁屏，截屏，状态栏，基本信息等
-![img1](https://github.com/Suguohei/SecuritySetting/blob/master/Screenshot_19700102-044733.png)
+
+<img src = "https://github.com/Suguohei/SecuritySetting/blob/master/Screenshot_19700102-044733.png" width = "50%" hight = "50%"/>
 
 功能1.控制各类开关，锁屏等
 ![img2](https://github.com/Suguohei/SecuritySetting/blob/master/Screenshot_19700102-045152.png)
